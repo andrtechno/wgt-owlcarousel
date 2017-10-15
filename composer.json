@@ -1,6 +1,6 @@
 {
     "name": "panix/wgt-owlcarousel",
-    "description": "Widget Tinymce",
+    "description": "Widget Owl Carousel 2",
     "keywords": ["corner-cms", "extension", "widget", "owlcarousel"],
     "homepage": "https://github.com/andrtechno/wgt-owlcarousel",
     "type": "yii2-extension",

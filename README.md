@@ -37,7 +37,7 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?php
-use panix\owlcarousel\OwlCarouselWidget;
+use panix\ext\owlcarousel\OwlCarouselWidget;
 
 OwlCarouselWidget::begin([
     'container' => 'div',
