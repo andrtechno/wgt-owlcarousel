@@ -1,0 +1,26 @@
+{
+    "name": "panix/wgt-owlcarousel",
+    "description": "Widget Tinymce",
+    "keywords": ["corner-cms", "extension", "widget", "owlcarousel"],
+    "homepage": "https://github.com/andrtechno/wgt-owlcarousel",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CORNER CMS",
+            "email": "dev@corner-cms.com",
+            "homepage": "http://www.corner-cms.com/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "panix/engine": "*",
+        "bower-asset/owl.carousel" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "panix\\ext\\owlcarousel\\": ""
+        }
+    }
+}
