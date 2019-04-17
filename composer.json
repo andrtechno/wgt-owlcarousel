@@ -14,8 +14,7 @@
     ],
     "prefer-stable": true,
     "require": {
-        "panix/engine": "*",
-        "bower-asset/owl.carousel" : "*"
+        "bower-asset/owl.carousel" : "^2.3.4"
     },
     "autoload": {
         "psr-4": {

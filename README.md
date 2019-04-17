@@ -1,4 +1,4 @@
-Owl Carousel Widget 2
+Owl Carousel Widget
 ============================
 
 The OwlCarouselWidget is a Yii2 wrapper for the [Owl Carousel 2] (https://owlcarousel2.github.io/OwlCarousel2/)
@@ -37,7 +37,7 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?php
-use panix\owlcarousel\OwlCarouselWidget;
+use panix\ext\owlcarousel\OwlCarouselWidget;
 
 OwlCarouselWidget::begin([
     'container' => 'div',

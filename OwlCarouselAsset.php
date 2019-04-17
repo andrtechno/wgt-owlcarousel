@@ -4,8 +4,13 @@ namespace panix\ext\owlcarousel;
 
 use yii\web\AssetBundle;
 
-class OwlCarouselAsset extends AssetBundle {
 
+class OwlCarouselAsset extends AssetBundle
+{
+
+    public $jsOptions = [
+        'position' => \yii\web\View::POS_END
+    ];
     /**
      * @var string the directory that contains the source asset files for this asset bundle.
      */
