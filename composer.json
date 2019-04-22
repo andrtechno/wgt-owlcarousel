@@ -12,7 +12,6 @@
             "homepage": "https://pixelion.com.ua"
         }
     ],
-    "prefer-stable": true,
     "require": {
         "bower-asset/owl.carousel" : "^2.3.4"
     },
