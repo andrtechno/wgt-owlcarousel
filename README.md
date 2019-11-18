@@ -40,18 +40,37 @@ Once the extension is installed, simply use it in your code by  :
 use panix\ext\owlcarousel\OwlCarouselWidget;
 
 OwlCarouselWidget::begin([
-    'container' => 'div',
+    'containerTag' => 'div',
     'containerOptions' => [
-        'id' => 'container-id',
         'class' => 'container-class'
     ],
-    'pluginOptions'    => [
+    'options'    => [
         'autoplay'          => true,
         'autoplayTimeout'   => 3000,
         'items'             => 3,
         'loop'              => true,
-        'itemsDesktop'      => [1199, 3],
-        'itemsDesktopSmall' => [979, 3]
+        'responsiveClass' => true,
+        'responsive' => [
+            0 => [
+                'items' => 1,
+                'nav' => false,
+                'dots' => true,
+                'center' => true,
+            ],
+            426 => [
+                'items' => 2,
+                'nav' => false
+            ],
+            768 => [
+                'items' => 2,
+                'nav' => false
+            ],
+            1024 => [
+                'items' => 5,
+                'nav' => true,
+                'dots' => false
+            ]
+        ]
     ]
 ]);
 ?>

@@ -67,7 +67,7 @@ class OwlCarouselWidget extends Widget
     {
         OwlCarouselAsset::register($view);
         $js = 'jQuery("#' . $this->getId() . '").owlCarousel(' . Json::encode($this->options) . ');';
-        $view->registerJs($js, $view::POS_READY);
+        $view->registerJs($js, $view::POS_END);
     }
 
     /**
