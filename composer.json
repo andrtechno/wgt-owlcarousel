@@ -8,7 +8,7 @@
     "owlcarousel"
   ],
   "homepage": "https://github.com/andrtechno/wgt-owlcarousel",
-  "type": "yii2-extension",
+  "type": "pixelion-widget",
   "license": "MIT",
   "authors": [
     {
